@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body * {
+    /* border: red solid 1px; */
+}
+
+body {
+    background-image: url(assets/nlw-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #121214;
+}
+
+main {
+    max-width: 90%;
+    width: 580px;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    line-height: 160%;
+    padding-top: 4px;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 10px;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+main div {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+.games-list img {
+    border-radius: 8px;
+    width: 90px;
+}
+
+.channels-list img {
+    border-radius: 50%;
+    width: 70px;
+}
