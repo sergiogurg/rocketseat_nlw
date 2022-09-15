@@ -103,3 +103,25 @@ main div {
     border-radius: 50%;
     width: 70px;
 }
+
+/* animation */
+
+header div {
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: fromTop;
+    animation-duration: 0.7s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fromTop {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 100;
+    }
+}
